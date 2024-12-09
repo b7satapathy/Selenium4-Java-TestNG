@@ -8,7 +8,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
-public class BaseTest {
+public class DemoQA_BaseTest {
     protected WebDriver driver;
     protected BasePage basepage;
     protected HomePage homepage;

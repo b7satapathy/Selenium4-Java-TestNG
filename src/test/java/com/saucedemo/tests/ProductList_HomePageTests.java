@@ -1,11 +1,11 @@
 package com.saucedemo.tests;
 
-import com.saucedemo.base.BaseTest;
+import com.saucedemo.base.SauceDemo_BaseTest;
 import com.saucedemo.pages.ProductList_HomePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ProductList_HomePageTests extends BaseTest {
+public class ProductList_HomePageTests extends SauceDemo_BaseTest {
 
     @Test
     public void validateProductsHeaderIsDisplayed() throws InterruptedException {

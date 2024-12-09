@@ -1,4 +1,6 @@
 package com.saucedemo.tests;
 
-public class ProductPageTests {
+import com.saucedemo.base.SauceDemo_BaseTest;
+
+public class ProductPageTests extends SauceDemo_BaseTest {
 }

@@ -1,10 +1,10 @@
 package com.saucedemo.tests;
 
-import com.saucedemo.base.BaseTest;
+import com.saucedemo.base.SauceDemo_BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginPageTests extends BaseTest {
+public class LoginPageTests extends SauceDemo_BaseTest {
 
 
     @Test
