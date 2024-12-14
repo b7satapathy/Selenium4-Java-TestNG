@@ -5,7 +5,7 @@ import com.saucedemo.pages.HomePage_ProductList;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ProductList_HomePageTests extends SauceDemo_BaseTest {
+public class HomePage_ProductListTests extends SauceDemo_BaseTest {
 
     @Test
     public void validateProductsHeaderIsDisplayed() throws InterruptedException {
