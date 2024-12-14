@@ -1,9 +1,8 @@
 package com.demoqa.pages;
 
-import com.saucedemo.pages.BasePage;
 import org.openqa.selenium.By;
 
-public class HomePage extends BasePage {
+public class HomePage extends DemoQA_BasePage {
 
     private By ElementsCard = By.xpath("//h5[text()='Elements']");
     private By FormsCard = By.xpath("//h5[text()='Forms']");

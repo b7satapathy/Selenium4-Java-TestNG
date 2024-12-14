@@ -1,6 +1,6 @@
 package com.saucedemo.pages;
 
-public class ProductPage extends BasePage{
+public class ProductPage extends SauceDemo_BasePage {
 
 
 }

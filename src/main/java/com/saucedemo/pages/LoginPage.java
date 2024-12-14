@@ -2,7 +2,7 @@ package com.saucedemo.pages;
 
 import org.openqa.selenium.By;
 
-public class LoginPage extends BasePage{
+public class LoginPage extends SauceDemo_BasePage {
     private By usernameField = By.id("user-name");
     private By passwordField = By.id("password");
     private By loginButton = By.id("login-button");
@@ -16,12 +16,12 @@ public class LoginPage extends BasePage{
         set(passwordField, password);
     }
 
-    public ProductList_HomePage clickLoginButton() {
+    public HomePage_ProductList clickLoginButton() {
         click(loginButton);
-        return new ProductList_HomePage();
+        return new HomePage_ProductList();
     }
 
-    public ProductList_HomePage logIntoApplication(String username, String password) {
+    public HomePage_ProductList logIntoApplication(String username, String password) {
         setUsername(username);
         setPassword(password);
         return clickLoginButton();

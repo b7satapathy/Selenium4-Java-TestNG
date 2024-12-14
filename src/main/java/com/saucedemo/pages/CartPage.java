@@ -1,4 +1,4 @@
 package com.saucedemo.pages;
 
-public class CartPage extends BasePage {
+public class CartPage extends SauceDemo_BasePage {
 }

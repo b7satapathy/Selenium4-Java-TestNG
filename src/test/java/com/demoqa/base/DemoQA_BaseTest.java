@@ -1,7 +1,7 @@
 package com.demoqa.base;
 
 import com.demoqa.pages.HomePage;
-import com.saucedemo.pages.BasePage;
+import com.saucedemo.pages.SauceDemo_BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterClass;
@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class DemoQA_BaseTest {
     protected WebDriver driver;
-    protected BasePage basepage;
+    protected SauceDemo_BasePage basepage;
     protected HomePage homepage;
 
 
@@ -25,7 +25,7 @@ public class DemoQA_BaseTest {
     @BeforeMethod
     public void loadApplication() {
         driver.get(DEMOQA_URL);
-        basepage = new BasePage();
+        basepage = new SauceDemo_BasePage();
         basepage.setDriver(driver);
         homepage = new HomePage();
     }
